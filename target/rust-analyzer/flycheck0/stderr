@@ -1,0 +1,8 @@
+   0.024638791s  INFO prepare_target{force=false package_id=task1 v0.1.0 (/Users/imaad/i/school of solana/task 1) target="task1"}: cargo::core::compiler::fingerprint: fingerprint dirty for task1 v0.1.0 (/Users/imaad/i/school of solana/task 1)/Check { test: false }/TargetInner { name: "task1", doc: true, ..: with_path("/Users/imaad/i/school of solana/task 1/src/main.rs", Edition2021) }
+   0.024653708s  INFO prepare_target{force=false package_id=task1 v0.1.0 (/Users/imaad/i/school of solana/task 1) target="task1"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.024845375s  INFO prepare_target{force=false package_id=task1 v0.1.0 (/Users/imaad/i/school of solana/task 1) target="task1"}: cargo::core::compiler::fingerprint: fingerprint dirty for task1 v0.1.0 (/Users/imaad/i/school of solana/task 1)/Check { test: true }/TargetInner { name: "task1", doc: true, ..: with_path("/Users/imaad/i/school of solana/task 1/src/main.rs", Edition2021) }
+   0.024849583s  INFO prepare_target{force=false package_id=task1 v0.1.0 (/Users/imaad/i/school of solana/task 1) target="task1"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+    Checking task1 v0.1.0 (/Users/imaad/i/school of solana/task 1)
+error: could not compile `task1` (bin "task1") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `task1` (bin "task1" test) due to 1 previous error
